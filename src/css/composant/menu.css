@@ -1,22 +1,72 @@
-/* Navigation fermée par défaut */
-.header__nav {
-    height: 0;
-    overflow: hidden;
-    visibility: hidden;
-    opacity: 0;
-    transform: translateY(-20%);
-    transition: all 0.3s ease-in-out;
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    position: relative;
 }
 
-/* Navigation ouverte */
-.header__nav--open {
-    height: auto;
-    visibility: visible;
-    opacity: 1;
-    transform: translateY(0);
+/* Conteneur principal pour le logo et les actions */
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
-/* Désactive le défilement lorsque le menu est ouvert */
-.noscroll {
-    overflow: hidden;
+/* Logo centré avec cercle bleu */
+.header__logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+}
+
+.header__logo::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px; /* Ajustez la taille selon vos besoins */
+    height: 120px;
+    background-color: #ADD8E6; /* Couleur bleue */
+    border-radius: 50%;
+    z-index: -1; /* Placez le cercle derrière le logo */
+    opacity : 0.5; /* Opacité du cercle */
+}
+
+.header__logo img {
+    max-width: 80px;
+    position: relative;
+}
+
+/* Actions dans le header */
+.header__actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__action {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.header__action img {
+    max-width: 30px;
+}
+
+/* Position spécifique pour la loupe et le menu */
+.header__action--search {
+    position: relative;
+    left: 0;
+}
+
+.header__action--menu {
+    position: relative;
+    right: 0;
 }
