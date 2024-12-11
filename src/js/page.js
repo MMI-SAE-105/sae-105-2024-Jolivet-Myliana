@@ -31,12 +31,16 @@ carousel2.scrollBy({ left: +scrollAmount2, behavior: "smooth" });;
 });
 }
 
-const toggle = document.querySelector(".menu-btn");
-const nav = document.querySelector(".menu");
+const toggle = document.querySelector(".header__action--menu");
+const nav = document.querySelector(".header__nav");
 
+// Gestion du clic sur le bouton du menu
 toggle.addEventListener("click", () => {
-   nav.classList.toggle("open");
+    // Ajout ou suppression de la classe pour afficher ou masquer le menu
+    nav.classList.toggle("header__nav--open");
+
+    // Mise à jour des attributs ARIA pour l'accessibilité
+    const isExpanded = toggle.getAttribute("aria-expanded") === "true";
+    toggle.setAttribute("aria-expanded", !isExpanded);
+    nav.setAttribute("aria-hidden", isExpanded);
 });
-
-// Ajoute un écouteur d'événements au bouton du menu
-

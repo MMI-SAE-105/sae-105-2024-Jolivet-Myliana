@@ -1,0 +1,22 @@
+/* Navigation fermée par défaut */
+.header__nav {
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-20%);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Navigation ouverte */
+.header__nav--open {
+    height: auto;
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Désactive le défilement lorsque le menu est ouvert */
+.noscroll {
+    overflow: hidden;
+}
