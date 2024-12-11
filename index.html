@@ -6,61 +6,97 @@
     <title>Lionimation - Festival d'Animation</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#programme">Programme</a></li>
-                <li><a href="#stands">Stands</a></li>
-                <li><a href="#infos-pratiques">Infos Pratiques</a></li>
-                <li><a href="#contact">Contact</a></li>
+<body class="page">
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <img src="assets/logo/logosite.svg" alt="Logo Lionimation">
+            </div>
+            <div class="header__actions">
+                <button class="header__action header__action--search" aria-label="Recherche">
+                    <img src="assets/logo/search.svg" alt="Recherche">
+                </button>
+                <button class="header__action header__action--menu" aria-label="Menu">
+                    <img src="assets/logo/icon.svg" alt="Menu">
+                </button>
+            </div>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li class="header__menu-item"><a class="header__menu-link" href="#programme">Programme</a></li>
+                <li class="header__menu-item"><a class="header__menu-link" href="#stands">Stands</a></li>
+                <li class="header__menu-item"><a class="header__menu-link" href="#infos-pratiques">Infos Pratiques</a></li>
+                <li class="header__menu-item"><a class="header__menu-link" href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main class="main-content">
 
-        <section id="introduction">
-            <img src="assets/img/cinema-demain.jpg" alt="cinéma">
-            <h1>21-27 octobre 2024</h1>
-            <h1>Rejoignez-nous à Belfort pour le festival Lionimation</h1>
-            <p>Rejoignez-nous à Belfort pour le tout premier festival dédié à l’animation sous toutes ses formes ! Du 21 au 27 octobre 2024 , chaque jour, plongez dans un univers d'animation différent : animation traditionnelle, 3D, rotoscope, stop motion, et bien plus encore. Lionisation, c'est aussi des ateliers interactifs et éducatifs pour les enfants et adolescents, des séances en plein air gratuites et des projections à prix réduits dans les cinémas.</p>
-            <a href="#billeterie" class="btn">Billetterie</a>
+        <section class="intro" id="introduction">
+            <img class="intro__image" src="assets/img/cinema-demain.jpg" alt="cinéma">
+            <h1 class="intro__date">21-27 octobre 2024</h1>
+            <h1 class="intro__title">Rejoignez-nous à Belfort pour le festival Lionimation</h1>
+            <p class="intro__text">Rejoignez-nous à Belfort pour le tout premier festival dédié à l’animation sous toutes ses formes ! Du 21 au 27 octobre 2024 , chaque jour, plongez dans un univers d'animation différent : animation traditionnelle, 3D, rotoscope, stop motion, et bien plus encore. Lionisation, c'est aussi des ateliers interactifs et éducatifs pour les enfants et adolescents, des séances en plein air gratuites et des projections à prix réduits dans les cinémas.</p>
+            <a href="#billeterie" class="button intro__button">Billetterie</a>
         </section>
 
 
-        <section id="film-a-la-une">
-            <h2>Film à la Une</h2>
-            <p>Découvrez les œuvres qui marquent l'univers de l'animation cette année.</p>
-            <a href="#activites" class="btn">Découvrir</a>
+        <section class="featured-film" id="film-a-la-une">
+            <h2 class="featured-film__title">Film à la Une</h2>
+            <p class="featured-film__text">Découvrez les œuvres qui marquent l'univers de l'animation cette année.</p>
+            <a href="#activites" class="button featured-film__button">Découvrir</a>
         </section>
 
-         <section id="activites">
-            <h2>Activités</h2>
-            <img src="assets/img/centre-de-loisurs-automne-20241.avif" alt="loisirs">
-            <p>Entre les séances, profitez des stands d'activités interactives où petits et grands pourront participer à des ateliers d'animation, découvrir des techniques de création de films et s'amuser avec des jeux et animations en plein air. Une expérience immersive et ludique pour toute la famille !</p>
-            <a href="#" class="btn">Découvrir les activités</a>
+         <section class="activities" id="activites">
+            <h2 class="activities__title">Activités</h2>
+            <img class="activities__image" src="assets/img/centre-de-loisurs-automne-20241.avif" alt="loisirs">
+            <p class="activities__text">Entre les séances, profitez des stands d'activités interactives où petits et grands pourront participer à des ateliers d'animation, découvrir des techniques de création de films et s'amuser avec des jeux et animations en plein air. Une expérience immersive et ludique pour toute la famille !</p>
+            <a href="#" class="button activities__button">Découvrir les activités</a>
         </section>
 
-        <section id="invites">
-            <h2>Invités</h2>
-        
-            <p>Cette année, notre festival ne se contente pas de projeter des films incroyables : nous vous offrons également l'occasion unique de rencontrer des réalisateurs de renom qui ont marqué le monde du cinéma d'animation. Assistez à des conférences exclusives, des sessions de questions-réponses et découvrez les coulisses des créations qui vous font rêver.</p>
-            <a href="#" class="btn">Découvrir</a>
+        <section class="guests" id="invites">
+            <h2 class="guests__title">Invités</h2>
+            <p class="guests__text">Cette année, notre festival ne se contente pas de projeter des films incroyables : nous vous offrons également l'occasion unique de rencontrer des réalisateurs de renom qui ont marqué le monde du cinéma d'animation. Assistez à des conférences exclusives, des sessions de questions-réponses et découvrez les coulisses des créations qui vous font rêver.</p>
+            <a href="#" class="button guests__button">Découvrir</a>
         </section>
 
 
-        <section id="infos-pratiques">
-            <h2>Infos pratiques</h2>
-            <img src="assets/img/1aece6e5f1deacc28c56218f973c566762725f087f436aa36b38c86e29321bca1-1.avif" alt="maps">
-            <p>Découvrez les lieux du festival, les options d’hébergement, et nos tarifs.</p>
-            <a href="#" class="btn">Plus d'infos</a>
+        <section class="practical-info" id="infos-pratiques">
+            <h2 class="practical-info__title">Infos pratiques</h2>
+            <img class="practical-info__image" src="assets/img/1aece6e5f1deacc28c56218f973c566762725f087f436aa36b38c86e29321bca1-1.avif" alt="maps">
+            <p class="practical-info__text">Découvrez les lieux du festival, les options d’hébergement, et nos tarifs.</p>
+            <a href="#" class="button practical-info__button">Plus d'infos</a>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2024 Lionimation | <a href="#mentions-legales">Mentions Légales</a> | <a href="#archives">Archives</a></p>
-        <p><a href="#contact">Contact</a></p>
-    </footer>
+    <section class="partners" id="partenaires">
+        <h2 class="partners__title">Nos partenaires</h2>
+        <div class="partners__logos">
+            <img class="partners__logo" src="assets/img/images1.avif" alt="Kinepolis">
+            <img class="partners__logo" src="assets/img/bG9nb19kZcyBcGFydGVtZW50X3RlcnJpdG9pcmVfYmVsZm9ydF8tXzIwMjMuc3ZnMQ==.avif" alt="Territoire de Belfort">
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="footer__logo">
+        <img src="assets/logo/logosite.svg" alt="Logo Lionimation">
+    </div>
+    <nav class="footer__nav">
+        <ul class="footer__menu">
+            <li class="footer__menu-item"><a class="footer__menu-link" href="#">Accueil</a></li>
+            <li class="footer__menu-item"><a class="footer__menu-link" href="#">Mentions Légales</a></li>
+            <li class="footer__menu-item"><a class="footer__menu-link" href="#">Archives</a></li>
+            <li class="footer__menu-item"><a class="footer__menu-link" href="#">Contact</a></li>
+            <li class="footer__menu-item"><a class="footer__menu-link" href="#">Nous Suivre</a></li>
+        </ul>
+    </nav>
+    <div class="footer__socials">
+        <a class="footer__social-link" href="#"><img src="assets/logo/twitter.svg" alt="Twitter"></a>
+        <a class="footer__social-link" href="#"><img src="assets/logo/facebook.svg" alt="Facebook"></a>
+        <a class="footer__social-link" href="#"><img src="assets/logo/instagram.svg" alt="Instagram"></a>
+    </div>
+</footer>
 </body>
 </html>
