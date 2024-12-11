@@ -13,3 +13,21 @@ nextButton.addEventListener("click", () => {
 carousel.scrollBy({ left: +scrollAmount, behavior: "smooth" });;
 });
 }
+
+const carousel2 = document.querySelector(".carousel__container2");
+const prevButton2 = document.querySelector(".carousel__button--prev2");
+const nextButton2 = document.querySelector(".carousel__button--next2");
+const premierItem2 = document.querySelector(".carousel__item");
+const scrollAmount2 = premierItem2.clientWidth;
+
+
+if (carousel2) {
+prevButton2.addEventListener("click", () => {
+carousel2.scrollBy({ left: -scrollAmount2, behavior: "smooth" });;
+});
+
+nextButton2.addEventListener("click", () => {
+carousel2.scrollBy({ left: +scrollAmount2, behavior: "smooth" });;
+});
+}
+
