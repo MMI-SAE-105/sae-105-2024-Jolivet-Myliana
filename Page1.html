@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lionimation - Festival d'Animation</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body class="page">
     <header class="header">
@@ -42,8 +42,42 @@
         </section>
 
 
-        <section class="featured-film" id="film-a-la-une">
-            <h2 class="featured-film__title">Film à la Une</h2>
+        <section class="carousel" id="carousel">
+
+            <h2 class="carousel__title">Films en vedette</h2>
+            <div class="carousel__container" aria-live="polite">
+                <div class="carousel__item">
+                    <img src="assets/img/chihiro.avif" alt="Le Voyage de Chihiro">
+                </div>
+                <div class="carousel__item">
+                    <img src="assets/img/Shaun.avif" alt="Shaun le Mouton">
+                </div>
+                <div class="carousel__item">
+                    <img src="assets/img/film3.avif" alt="A Scanner Darkly">
+                </div>
+                <div class="carousel__item">
+                    <img src="assets/img/film4.avif" alt="Les Nouveaux Héros">
+                </div>
+                <div class="carousel__item">
+                    <img src="assets/img/film5.avif" alt="Toy Story 4">
+                </div>
+                <div class="carousel__item">
+                    <img src="assets/img/film6.avif" alt="Spider-Man">
+                </div>
+            </div>
+            <div class="carousel__controls">
+                <button class="carousel__button carousel__button--prev" aria-label="Défiler vers la gauche">
+                    <img src="assets/logo/FLECHEGAUCHE.svg" alt="Flèche gauche">
+                </button>
+                <button class="carousel__button carousel__button--next" aria-label="Défiler vers la droite">
+                    <img src="assets/logo/FLECHE DROITE.svg" alt="Flèche droite">
+                </button>
+            </div>
+        </section>
+            
+           
+            
+            </body>
             <p class="featured-film__text">Découvrez les œuvres qui marquent l'univers de l'animation cette année.</p>
             <a href="#activites" class="button featured-film__button">Découvrir</a>
         </section>

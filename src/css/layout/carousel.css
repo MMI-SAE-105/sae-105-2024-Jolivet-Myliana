@@ -1,0 +1,17 @@
+.carousel__container {
+    display: flex;
+    gap: 16px;
+    overflow-x: scroll;
+    margin-left: -24px;
+    margin-right: -24px;
+    scroll-snap-type: x mandatory;
+    }
+    
+    .carousel__item {
+    flex: 1 0 100%;
+    scroll-snap-align: center;
+    }
+    
+    .carousel__item img {
+    display: block;
+    }
