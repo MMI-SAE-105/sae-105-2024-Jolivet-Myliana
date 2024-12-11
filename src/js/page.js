@@ -31,3 +31,12 @@ carousel2.scrollBy({ left: +scrollAmount2, behavior: "smooth" });;
 });
 }
 
+const toggle = document.querySelector(".menu-btn");
+const nav = document.querySelector(".menu");
+
+toggle.addEventListener("click", () => {
+   nav.classList.toggle("open");
+});
+
+// Ajoute un écouteur d'événements au bouton du menu
+
