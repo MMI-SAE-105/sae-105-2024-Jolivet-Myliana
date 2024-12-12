@@ -1,6 +1,9 @@
 img {
-    width: 100%;
-    height: auto;
+    display: block; 
+    margin: 0 auto; 
+    width: 350px; 
+    height: auto; 
+    max-width: 100%;
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -10,6 +13,8 @@ h1{
     font-weight: 400;
     font-style: normal;
     font-size: 32px;
+    display: flex;
+    justify-content: center;
     margin-left: 10px;
 }
 
@@ -21,9 +26,10 @@ h2{
     margin-left: 25px;
 }
 
-body{
+p{
     font-family: "Prociono", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
+  margin-left: 10px;
 }

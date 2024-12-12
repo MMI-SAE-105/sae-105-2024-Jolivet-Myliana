@@ -17,4 +17,12 @@
     .carousel__button{
         background: transparent;
         border: none;
+        width: 70px;
+        display: flex;
+        justify-content: center;
     }
+
+    .carousel__controls{
+        display: flex;
+        justify-content: center;
+     }
