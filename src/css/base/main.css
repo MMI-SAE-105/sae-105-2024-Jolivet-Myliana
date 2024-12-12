@@ -10,7 +10,7 @@ img {
 
 
 .exemple  {
-    display: inline-block; /* ou 'block', selon vos besoins de mise en page */
+    display: inline-block; 
     margin: initial;
     width: auto;
     height: auto;
@@ -19,6 +19,10 @@ img {
     margin-top: 10px;
 }
 
+.exemple__2{
+   display: inline-block;
+   width: 30px;
+}
 
 
 h1{
@@ -28,7 +32,6 @@ h1{
     font-size: 32px;
     display: flex;
     justify-content: center;
-    margin-left: 10px;
 }
 
 h2{
@@ -45,4 +48,8 @@ p{
   font-style: normal;
   font-size: 16px;
   margin-left: 10px;
+}
+.programme__telechargement{
+    display: flex;
+    justify-content: center;
 }
