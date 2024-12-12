@@ -1,0 +1,15 @@
+.button {
+    font-family: --body;
+    font-size: 16px; 
+    color: black; 
+    background-color: transparent; 
+    border: 2px solid black; 
+    border-radius: 12px; 
+    padding: 10px 20px; 
+  }
+  
+  .intro__button {
+    text-decoration: none;
+    color: black;
+  }
+
