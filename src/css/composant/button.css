@@ -6,6 +6,9 @@
     border: 2px solid black; 
     border-radius: 12px; 
     padding: 10px 20px; 
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
   
   .intro__button {
@@ -13,3 +16,9 @@
     color: black;
   }
 
+ .carousel__controls{
+    display: flex;
+    justify-content: center;
+ }
+    
+   
