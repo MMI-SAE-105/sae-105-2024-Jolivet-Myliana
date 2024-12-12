@@ -12,3 +12,9 @@ toggle.addEventListener("click", () => {
     nav.setAttribute("aria-hidden", isExpanded);
 });
 
+const accordeon = document.querySelector(".accordeon");
+
+accordeon.addEventListener("click", () => {
+    accordeon.querySelectorAll("details").forEach((det) => (det.open = false));
+  }
+);

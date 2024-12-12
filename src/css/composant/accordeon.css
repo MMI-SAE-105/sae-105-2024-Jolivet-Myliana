@@ -1,0 +1,49 @@
+
+
+.accordeon {
+    display: grid;
+    width: auto;
+    gap: 10px;
+    font-family: Prociono, serif;
+}
+summary {
+
+    display: flex;
+    gap: 20px;
+}
+details {
+    position: relative;
+    min-width: 100px;
+    transition: all 0.3s ease;
+    display: block;
+    background-color: #c7ebf8;;
+ 
+}
+
+details[open] {
+    display: block;
+    width: 100%;
+}
+
+details > summary + * {
+    display: block;
+    margin-top: 10px;
+}
+
+details > summary {
+    list-style: none;
+  }
+details > summary::-webkit-details-marker {
+    display: none;
+  }
+
+
+details[open] .arrow {
+    transform: rotate(90deg);
+
+}
+
+.accordeon__question{
+    font-family: Prociono, serif;
+    font-size: 20px;
+}
