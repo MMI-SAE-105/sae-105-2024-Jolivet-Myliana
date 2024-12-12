@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@700&family=Prociono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@700&family=Prociono&display=swap');
 
-
+@import "vendors/normalize.css";
+@import"utilitaire/variable.css";
 @import "layout/carousel.css";
+@import "base/main.css";
 @import "composant/menu.css";
 @import "layout/header.css";
+@import "base/média.css";
+@import "layout/footer.css";

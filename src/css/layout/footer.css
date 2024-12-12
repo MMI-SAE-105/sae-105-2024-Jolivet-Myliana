@@ -1,0 +1,73 @@
+/* Footer */
+.footer {
+    background-color: #f8e8f8; /* Couleur rose pâle */
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #000; /* Bordure noire en haut */
+}
+
+/* Logo dans le footer */
+.footer__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer__logo img {
+    max-width: 80px;
+}
+
+/* Menu du footer */
+.footer__menu {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.footer__menu-item {
+    margin: 10px 0;
+}
+
+.footer__menu-link {
+    text-decoration: none;
+    color: #000; /* Noir */
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.footer__menu-link:hover {
+    color: #6200ea; /* Violet foncé au survol */
+}
+
+/* Réseaux sociaux */
+.footer__socials {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer__social-link img {
+    max-width: 30px;
+    transition: transform 0.3s;
+}
+
+.footer__social-link:hover img {
+    transform: scale(1.2); /* Zoom au survol */
+}
+
+/* Responsivité */
+@media (max-width: 768px) {
+    .footer {
+        padding: 15px;
+    }
+
+    .footer__menu-link {
+        font-size: 1rem;
+    }
+
+    .footer__social-link img {
+        max-width: 25px;
+    }
+}
