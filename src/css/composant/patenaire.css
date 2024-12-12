@@ -1,0 +1,12 @@
+.partners__logo{
+    height: 75px;
+    width: 75px;
+    margin-left: 25px;
+}
+
+.partners__logo2{
+    height: 75px;
+    width: 150px;
+    float: right;
+    margin-right: 25px;
+}

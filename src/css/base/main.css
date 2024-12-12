@@ -15,5 +15,12 @@ h2{
     font-weight: 400;
     font-style: normal;
     font-size: 24px;
+    margin-left: 25px;
 }
 
+body{
+    font-family: "Prociono", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
