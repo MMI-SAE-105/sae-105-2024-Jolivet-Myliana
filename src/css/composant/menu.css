@@ -37,36 +37,8 @@
     opacity : 0.5; 
 }
 
-.header__logo img {
-    max-width: 70px;
-    position: relative;
-}
 
 
-.header__actions {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
 
-.header__action {
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-}
 
-.header__action img {
-    max-width: 30px;
-}
-
-.header__action--search {
-    position: relative;
-    left: 0;
-}
-
-.header__action--menu {
-    position: relative;
-    right: 0;
-}
 

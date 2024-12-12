@@ -1,30 +1,18 @@
+
 .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
     background-color: var(--fond);
     position: relative;
-    z-index: 1000;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-
-}
-.header__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    max-width: 1200px;
 }
 
 .header__logo img {
     max-width: 80px;
 }
 
-.header__actions {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
+
 
 .header__action {
     background: transparent;
@@ -37,12 +25,7 @@
     max-width: 30px;
 }
 
-.header__action--menu {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    background: transparent;
-}
+
 
 .header__nav {
     position: absolute;
@@ -63,15 +46,9 @@
     display: flex;
 }
 
-.header__menu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
 
-.header__menu-item {
-    margin: 10px 0;
-}
+
+
 
 
 
