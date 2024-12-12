@@ -35,7 +35,7 @@
     display: flex; 
 }
 
-
+/* Style des liens */
 .header__menu-link {
     padding: 20px; 
     color: black; 
@@ -81,4 +81,3 @@
 .header__logo  {
     max-width: 80px; 
 }
-
