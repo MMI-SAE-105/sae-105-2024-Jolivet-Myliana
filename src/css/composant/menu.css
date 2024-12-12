@@ -54,30 +54,18 @@
     box-sizing: border-box; 
     margin-bottom: 20px;
 }
-
-
-.header__menu-link:hover {
-}
-
-
-.header__action--menu {
-    top: 20px;
-    right: 20px;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    z-index: 10000; 
-}
-
 .header__action--menu  {
     width: 30px;
     height: auto;
 }
 
-.header__menu-logo {
 
-}
 
 .header__logo  {
     max-width: 80px; 
+}
+
+.menu__logo {
+    max-width: 40px; 
+    margin-right: auto;
 }

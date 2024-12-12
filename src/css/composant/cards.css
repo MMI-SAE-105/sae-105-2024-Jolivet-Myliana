@@ -1,0 +1,47 @@
+.programme {
+    border: 1px solid black; /* Bordure noire autour de la carte */
+    margin: 20px 0; /* Espace entre les cartes */
+    width: 300px; /* Largeur fixe de la carte */
+    font-family: Arial, sans-serif; /* Police générale */
+}
+
+/* En-tête de la carte */
+.programme__header {
+    display: flex;
+    justify-content: space-between; /* Positionne les éléments aux extrémités */
+    align-items: center; /* Centre verticalement les éléments */
+    background-color: #E5C5E5; /* Couleur de fond lavande */
+    padding: 10px; /* Espacement interne */
+    font-weight: bold; /* Texte en gras */
+    font-size: 1.1rem; /* Taille du texte */
+    border-bottom: 1px solid black; /* Bordure entre l'en-tête et le contenu */
+}
+
+/* Date dans l'en-tête */
+.programme__date {
+    color: black;
+    font-weight: 600; /* Style légèrement plus gras pour la date */
+}
+
+/* Catégorie dans l'en-tête */
+.programme__category {
+    color: black;
+    font-family: 'Chewy', sans-serif; /* Police personnalisée pour la catégorie */
+}
+
+/* Contenu de la carte */
+.programme__content {
+    padding: 10px; /* Espacement interne pour le contenu */
+    font-size: 0.9rem; /* Taille du texte légèrement plus petite */
+    line-height: 1.5; /* Hauteur de ligne pour une meilleure lisibilité */
+}
+
+/* Films et horaires */
+.programme__content p {
+    margin: 5px 0; /* Espace entre chaque ligne */
+}
+
+/* Titre des films en gras */
+.programme__content strong {
+    font-weight: bold;
+}
