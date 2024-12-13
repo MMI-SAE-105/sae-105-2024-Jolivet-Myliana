@@ -6,6 +6,13 @@
     <title>Lionimation - Festival d'Animation</title>
     <link rel="stylesheet" href="src/css/style.css">
     <script type="module" src="/src/js/page.js"></script>
+    
+    <link rel="icon" type="image/png" href="assets/favicon-2/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+
 </head>
 <body class="page">
     <header class="header">
@@ -17,47 +24,39 @@
                 <button class="header__action header__action--search" aria-label="Recherche">
                     <img src="assets/logo/search.svg" alt="Recherche">
                 </button>
-                
             </div>
         </div>
         
         <button class="header__action header__action--menu" aria-label="Menu" aria-expanded="false">
             <img src="assets/logo/icon.svg" alt="Menu">
-            
         </button>
         
-        <nav class="header__nav">
+        <nav class="header__nav" aria-label="Navigation principale">
             <div class="header__nav-header">
                 <img class="header__logo" src="assets/logo/logosite.svg" alt="Logo Lionimation" class="header__nav-logo">
             </div>
             <ul class="header__menu">
-                <li class="header__menu-item"><a class="header__menu-link" href="#introduction">Accueil</a></li>
-                <li class="header__menu-item"><a class="header__menu-link" href="#carousel">Films en vedette</a></li>
-                <li class="header__menu-item"><a class="header__menu-link" href="#activites">Activités</a></li>
-                <li class="header__menu-item"><a class="header__menu-link" href="#invites">Invités</a></li>
-                <li class="header__menu-item"><a class="header__menu-link" href="#infos-pratiques">Infos pratiques</a></li>
-                <li class="header__menu-item"><a class="header__menu-link" href="#partenaires">Partenaires</a></li>
+                <li class="header__menu-item"><a class="header__menu-link" href="#introduction" aria-label="Lien vers Accueil">Accueil</a></li>
+                <li class="header__menu-item"><a class="header__menu-link" href="#carousel" aria-label="Lien vers Films en vedette">Films en vedette</a></li>
+                <li class="header__menu-item"><a class="header__menu-link" href="#activites" aria-label="Lien vers Activités">Activités</a></li>
+                <li class="header__menu-item"><a class="header__menu-link" href="#invites" aria-label="Lien vers Invités">Invités</a></li>
+                <li class="header__menu-item"><a class="header__menu-link" href="#infos-pratiques" aria-label="Lien vers Infos pratiques">Infos pratiques</a></li>
+                <li class="header__menu-item"><a class="header__menu-link" href="#partenaires" aria-label="Lien vers Partenaires">Partenaires</a></li>
             </ul>
         </nav>
- 
     </header>
 
     <main class="main-content">
-
         <section class="intro" id="introduction">
             <div class="image__accueil"> 
-            <img src="assets/img/image1design.webp" class="exemple" alt="image d'accueil">
-        </div>
-           
-            
+                <img src="assets/img/image1design.webp" class="exemple" alt="image d'accueil">
+            </div>
             <h1 class="intro__title">Rejoignez-nous à Belfort pour le festival Lionimation</h1>
             <p class="intro__text">Rejoignez-nous à Belfort pour le tout premier festival dédié à l’animation sous toutes ses formes ! Du 21 au 27 octobre 2024 , chaque jour, plongez dans un univers d'animation différent : animation traditionnelle, 3D, rotoscope, stop motion, et bien plus encore. Lionisation, c'est aussi des ateliers interactifs et éducatifs pour les enfants et adolescents, des séances en plein air gratuites et des projections à prix réduits dans les cinémas.</p>
-            <button class="button"><a href="#billeterie" class="intro__button">Billetterie</a></button>
+            <button class="button"><a href="#billeterie" class="intro__button" aria-label="Lien vers Billetterie">Billetterie</a></button>
         </section>
 
-
-        <section class="carousel" id="carousel">
-
+        <section class="carousel" id="carousel"></section>
             <h2 class="carousel__title">Films en vedette</h2>
             <div class="carousel__container" aria-live="polite">
                 <div class="carousel__item">
@@ -79,6 +78,7 @@
                     <img src="assets/img/film6.avif" alt="Spider-Man">
                 </div>
             </div>
+            
             <div class="carousel__controls">
                 <button class="carousel__button carousel__button--prev" aria-label="Défiler vers la gauche">
                     <img src="assets/logo/FLECHEGAUCHE.svg" alt="Flèche gauche">
@@ -105,7 +105,7 @@
 
         <section class="guests" id="invites">
             <h2 class="guests__title">Invités</h2>
-            <p class="guests__text">Cette année, notre festival ne se contente pas de projeter des films incroyables : nous vous offrons également l'occasion unique de rencontrer des réalisateurs de renom qui ont marqué le monde du cinéma d'animation. Assistez à des conférences exclusives, des sessions de questions-réponses et découvrez les coulisses des créations qui vous font rêver.</p>
+            <p class="guests__text">Cette année, notre festival ne se contente pas de projeter des films incroyables : nous vous offrons également l'occasion unique de rencontrer des réalisateurs de renommé qui ont marqué le monde du cinéma d'animation. Assistez à des conférences exclusives, des sessions de questions-réponses et découvrez les coulisses des créations qui vous font rêver.</p>
 
             <section class="carousel2" id="carousel2"></section>
             <div class="carousel__container carousel__container2" aria-live="polite">
@@ -149,6 +149,7 @@
         </div>
     </section>
 </main>
+
 <img src="assets/logo/vector4.svg" class="exemple" alt="image 1">
 
 <footer class="footer">
