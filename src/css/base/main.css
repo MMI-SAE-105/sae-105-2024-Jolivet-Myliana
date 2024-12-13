@@ -58,3 +58,9 @@ p{
     width: 90%;
     height: 90%;
 }
+
+.trailer{
+    display: flex;
+    justify-content: center;
+    
+}
