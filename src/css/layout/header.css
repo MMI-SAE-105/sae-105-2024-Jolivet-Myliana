@@ -4,9 +4,16 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    background-color: var(--fond);
+    background-color: #fee8ff;
     position: relative;
+}
 
+
+.header__container{
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fee8ff;
+    /*padding: 10px 20px;*/
 }
 
 .header__logo img {
@@ -45,3 +52,9 @@
     opacity : 0.5; 
 }
 
+
+.header__action--menu{
+    position: relative;
+    z-index: 1;
+
+}
