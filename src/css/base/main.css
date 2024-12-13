@@ -53,3 +53,8 @@ p{
     display: flex;
     justify-content: center;
 }
+
+.maps__infos{
+    width: 90%;
+    height: 90%;
+}
