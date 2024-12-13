@@ -13,4 +13,5 @@
 @import"composant/patenaire.css";
 @import"composant/cards.css";
 @import"composant/accordeon.css";
-@import"composant/info.css"
+@import"composant/info.css";
+@import "layout/contact.css";
