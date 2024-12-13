@@ -6,7 +6,7 @@
 - NOM : Jolivet
 - PRÉNOM : Myliana
 - GROUPE : B2
-- URL du site : https://amazing-panda-2c8fa2.netlify.app
+- URL du site : https://sae105.myliana-jolivet.fr 
 - URL FIGMA : https://www.figma.com/design/V1mfdtrltw9tJLw53Uz7pA/Untitled?node-id=1-4&node-type=canvas&t=nuY5ooxtW1Iihucj-0
 
 ## Sujet
