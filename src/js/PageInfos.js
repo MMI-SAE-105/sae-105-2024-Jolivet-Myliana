@@ -24,10 +24,10 @@ if (toggle && nav) {
     });
   }
 
-  const carousel = document.querySelector(".carousel__container");
+  const carousel = document.querySelector(".carousel__container2");
   const prevButton = document.querySelector(".carousel__button--prev");
   const nextButton = document.querySelector(".carousel__button--next");
-  const premierItem = document.querySelector(".carousel__card");
+  const premierItem = document.querySelector(".carousel__card2");
   const scrollAmount = premierItem.clientWidth;
   
   if (carousel) {
